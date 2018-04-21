@@ -4,11 +4,7 @@ import './App.css';
 const logo = require('./logo.svg');
 
 class App extends React.Component {
-  componentDidMount() {
-    const a = this.props;
-    const b = ';stop here';
-    console.log('component did mount', a, b);
-  }
+  
   render() {
     return (
       <div className="App">
