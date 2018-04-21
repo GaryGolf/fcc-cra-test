@@ -9,17 +9,17 @@
       "request": "launch",
       "name": "Launch Chrome against localhost",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceRoot}",
+      "webRoot": "${workspaceRoot}/src",
       "userDataDir": "${workspaceRoot}/.vscode/chrome",
-      "sourceMaps": true,
-      "preLaunchTask": "development",
-      "smartStep": true,
-      "internalConsoleOptions": "openOnSessionStart",
+      // "sourceMaps": true,
+      // "preLaunchTask": "development",
+      // "smartStep": true,
+      // "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": [
           "node_modules/**"
       ],
       "sourceMapPathOverrides": {
-          "webpack:///*": "${webRoot}/*"
+          "webpack:///src/*": "${webRoot}/*"
       }
     }
   ]
